@@ -19,7 +19,7 @@ public class PongV1 extends Applet
     public void init()
     {
         this.setSize(1500,750); 
-        this.setBackground(Color.green);
+        this.setBackground(Color.CYAN);
         balls=new ArrayList();
         for(int x=0;x<500;x++)
         {
@@ -67,7 +67,7 @@ class Ball
         vel[0]=0;
         vel[1]=0;
         this.rad=rad;
-        grav=.05;
+        grav=2;
     }
     public void move()
     {
@@ -83,9 +83,9 @@ class Ball
     }
     public void drawBall(Graphics g)
     {
-        int R=(int)(256*Math.random());
-        int G=(int)(256*Math.random());
-        int B=(int)(256*Math.random());
+        int R=0;
+        int G=0;
+        int B=(int)((256)*Math.random());
         g.setColor(new Color(R,G,B));
         g.fillOval((int)(pos[0]-rad), (int)(pos[1]-rad),2*rad, 2*rad);
     }
