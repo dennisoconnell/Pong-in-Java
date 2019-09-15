@@ -1,1 +1,0 @@
-![](pong1_gif_demo.gif)
