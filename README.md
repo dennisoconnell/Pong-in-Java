@@ -14,7 +14,3 @@ private ArrayList<Ball> balls;
 
 ## Demonstration of Pong 2:
 ![](pong2_gif_demo.gif)
-#### Pong2 improved upon the foundation of Pong1 by adding the following:
-#### 1. 
-#### 2. 
-#### 3. 
