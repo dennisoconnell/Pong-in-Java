@@ -1,4 +1,4 @@
-# Pong-in-Java
+# Pong-in-Java 🏓
 Java applets that apply concepts of object oriented programming to visualization of the game of pong
 
 ## Demonstration of Pong 1:
