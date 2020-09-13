@@ -9,3 +9,6 @@ Java applets that apply concepts of object oriented programming to visualization
 
 ## Demonstration of Pong 2:
 ![](pong2_gif_demo.gif)
+* Created paddle and player classes to handle game functionality.
+* Implemented keylisteners to allow for user input
+* Refresh rate had to be limited due to poor optimization
